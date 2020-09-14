@@ -47,6 +47,7 @@ class PostgresKernel(Kernel):
     language_info = {'name': 'PostgreSQL',
                      'codemirror_mode': 'sql',
                      'mimetype': 'text/x-postgresql',
+                     'pygments_lexer': 'postgresql',
                      'file_extension': '.sql'}
 
     def __init__(self, **kwargs):
