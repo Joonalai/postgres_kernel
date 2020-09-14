@@ -1,0 +1,16 @@
+[build-system]
+requires = ["flit"]
+build-backend = "flit.buildapi"
+
+[tool.flit.metadata]
+module = "postgres_kernel"
+author = "Brian Schiller"
+author-email = "bgschiller@gmail.com"
+home-page = "https://github.com/bgschiller/postgres_kernel"
+requires = ["psycopg2>=2.6", "tabulate>=0.8", "jupyter-client", "ipykernel"]
+description-file = "README.md"
+classifiers = [
+    "Framework :: IPython",
+    "License :: OSI Approved :: BSD License",
+    "Programming Language :: Python :: 3",
+]
